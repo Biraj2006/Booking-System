@@ -1,0 +1,84 @@
+# ============================================================
+# Dependencies
+# ============================================================
+node_modules/
+.pnp
+.pnp.js
+
+# ============================================================
+# Production Builds
+# ============================================================
+dist/
+dist-ssr/
+build/
+out/
+
+# ============================================================
+# Environment Variables & Secrets
+# ============================================================
+# Ignore all private environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# Explicitly track template/example env files
+!.env.example
+
+# ============================================================
+# Logs & Debugging
+# ============================================================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ============================================================
+# Cache & Temporary Directories
+# ============================================================
+.vite/
+.cache/
+.parcel-cache/
+.turbo/
+.eslintcache/
+.stylelintcache/
+coverage/
+*.tsbuildinfo
+
+# ============================================================
+# Editor & IDE Directories
+# ============================================================
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*.swp
+*.swo
+
+# ============================================================
+# Operating System & OneDrive Metadata
+# ============================================================
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+[Dd]esktop.ini
+$RECYCLE.BIN/
+
+# Temporary files (e.g. Office / OneDrive sync locks)
+~$*
+*~
+*.tmp
